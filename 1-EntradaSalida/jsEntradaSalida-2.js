@@ -2,7 +2,7 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	var eq; 
+	var nombre; 
 	nombre = prompt("Ingrese su nombre","Natalia Natalia");
 	alert("Su nombre es: "+nombre);
 //prompt devuelve algo, concatenar (encadenar)
