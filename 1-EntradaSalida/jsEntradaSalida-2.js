@@ -2,9 +2,9 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	var nombre; 
-	nombre = prompt("Ingrese su nombre","Natalia Natalia");
-	alert("Su nombre es: "+nombre);
+	var edad;
+	edad =prompt("Ingresar edad","Años");
+	alert("Tiene: "+ edad); 
 //prompt devuelve algo, concatenar (encadenar)
 //siempre con una variable 
 
