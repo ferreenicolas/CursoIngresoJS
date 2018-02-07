@@ -2,8 +2,11 @@ function Mostrar()
 {
   var importefinal;
   var importeproducto;
+  var importemedio;
 
-  importeproducto= prompt("Ingrese el importe del producto","Producto");
-  importefinal=document.getElementById('importeFinal').value
+  importeproducto=parseInt(prompt("Importe")); 
+  importemedio= importeproducto *21/100;
+  importefinal= importeproducto + importemedio;
+  document.getElementById('importeFinal').value=importefinal;
 
 }
