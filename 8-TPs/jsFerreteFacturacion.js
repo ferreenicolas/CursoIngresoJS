@@ -51,8 +51,7 @@ precio2= parseInt(document.getElementById('PrecioDos').value);
 precio3= parseInt(document.getElementById('PrecioTres').value);
 resultadoneto= precio1+ precio2+ precio3;
 resultado21= resultadoneto *21 /100 ;
-//
-
-alert(resultado21);
+resultadoiva= resultadoneto + resultado21;
+alert(resultadoiva);
 
 }
