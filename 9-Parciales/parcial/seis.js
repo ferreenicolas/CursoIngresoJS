@@ -19,10 +19,10 @@ function Mostrar()
 			importeVentas= prompt("Importe de ventas.");
 			importeVentas = parseInt(importeVentas);
 		}
-		while(dia == 1)
+		if(dia == 1)
 		{
-			 importeMinimo = 1;
-			 importeMaximo = 1; 
+			 importeMinimo = importeVentas;
+			 importeMaximo = importeVentas; 
 		}
 
 		if (importeVentas < importeMinimo)
@@ -37,6 +37,8 @@ function Mostrar()
 			}
 		}
 	}
+	document.write("<br> El importe maximo es: " + importeMaximo);
+	document.write("<br> El importe minimo es: " + importeMinimo);
 }
 
 
